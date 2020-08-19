@@ -47,6 +47,20 @@ This is the sub-project of `kubeadm-CDK`(https://github.com/HallBlazzar/kubeadm-
    ```
 
    Enjoy it!
+   
+8. Clean up 
+
+   - Jenkins:
+
+     ```
+     helm uninstall jenkins
+     ```
+
+   - PVC
+
+     ```
+     kubectl delete -f pvc.yaml
+     ```
 
 ## How it works
 
